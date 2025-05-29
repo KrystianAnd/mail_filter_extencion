@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Recruitment Message Highlighter",
+    "version": "1.0",
+    "description": "Colors recruitment emails based on tone.",
+    "content_scripts": [
+      {
+        "matches": ["https://mail.google.com/*"],
+        "js": ["content.js"],
+        "css": ["style.css"]
+      }
+    ],
+    "permissions": []
+  }
+  

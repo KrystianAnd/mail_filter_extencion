@@ -1,0 +1,15 @@
+.recruitment-positive {
+    background-color: rgba(0, 255, 0, 0.15) !important;
+    border-left: 4px solid green !important;
+  }
+  
+  .recruitment-negative {
+    background-color: rgba(255, 0, 0, 0.15) !important;
+    border-left: 4px solid red !important;
+  }
+  
+  .recruitment-neutral {
+    background-color: rgba(173, 216, 230, 0.15) !important;
+    border-left: 4px solid #87CEFA !important;
+  }
+  
